@@ -1,0 +1,25 @@
+DOM = Document Object Model
+D = Document
+O = Object
+M = Model
+Document: Simple 1 page,
+Object: Individual Picess
+jar Existence ase
+
+Model: 
+
+DOM actualy one concept 
+
+i) DOM Element Access
+ii) DOM Element Content Exchenge.
+iii) DOM Element create
+
+
+AddEventListner(){
+}
+Attachevent
+
+
+* Cross Browser Issu
+
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>:: Day-07 Bootstrap-4.00 ::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12">-->
+                <!--<table class="table table-bordered table table-hover table-responsive">-->
+                    <!--<tr class="table-info">-->
+                        <!--<th>Farst Name</th>-->
+                        <!--<th>Last Name</th>-->
+                        <!--<th>Email Address</th>-->
+                        <!--<th>Phone Number</th>-->
+                        <!--<th>Address</th>-->
+                        <!--<th>City</th>-->
+                        <!--<th>Country</th>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Ruhul</td>-->
+                        <!--<td>Amin</td>-->
+                        <!--<td>ruhul.cit.bd@gmail.com</td>-->
+                        <!--<td>01719750301</td>-->
+                        <!--<td>Nurjahan Road, Mohammadpur, Dhaka-1207</td>-->
+                        <!--<td>Dhaka</td>-->
+                        <!--<td>Bangladesh</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Ruhul</td>-->
+                        <!--<td>Amin</td>-->
+                        <!--<td>ruhul.cit.bd@gmail.com</td>-->
+                        <!--<td>01719750301</td>-->
+                        <!--<td>Nurjahan Road, Mohammadpur, Dhaka-1207</td>-->
+                        <!--<td>Dhaka</td>-->
+                        <!--<td>Bangladesh</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Ruhul</td>-->
+                        <!--<td>Amin</td>-->
+                        <!--<td>ruhul.cit.bd@gmail.com</td>-->
+                        <!--<td>01719750301</td>-->
+                        <!--<td>Nurjahan Road, Mohammadpur, Dhaka-1207</td>-->
+                        <!--<td>Dhaka</td>-->
+                        <!--<td>Bangladesh</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Ruhul</td>-->
+                        <!--<td>Amin</td>-->
+                        <!--<td>ruhul.cit.bd@gmail.com</td>-->
+                        <!--<td>01719750301</td>-->
+                        <!--<td>Nurjahan Road, Mohammadpur, Dhaka-1207</td>-->
+                        <!--<td>Dhaka</td>-->
+                        <!--<td>Bangladesh</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Ruhul</td>-->
+                        <!--<td>Amin</td>-->
+                        <!--<td>ruhul.cit.bd@gmail.com</td>-->
+                        <!--<td>01719750301</td>-->
+                        <!--<td>Nurjahan Road, Mohammadpur, Dhaka-1207</td>-->
+                        <!--<td>Dhaka</td>-->
+                        <!--<td>Bangladesh</td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!-- table part code ends -->
+
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12">-->
+                <!--<img src="images/12473935_1042245422507739_6107013339784497577_o.jpg" alt="" class="img-fluid img"/>-->
+                <!--<img src="images/bangladesh-team-cricket1a.JPG" alt="" class="img-fluid img"/>-->
+                <!--<img src="images/BGB_Rohingya+(1).jpg" alt="" class="img-fluid img"/>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!-- images part code ends -->
+
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-4">
+
+               <form action="" method="">
+                   <div class="form-group">
+                       <label for="firstName">First Name</label>
+                       <input type="text" name="first_name" id="firstName" class="form-control" placeholder="your first name" maxlength="10"/>
+                   </div>
+                   <div class="form-group">
+                       <label for="lastName">Last Name</label>
+                       <input type="text" name="first_name" value="Basis institute of technology & management" readonly id="lastName" class="form-control" placeholder="your last name"/>
+                   </div>
+                   <div class="form-group">
+                       <label for="email">Email Address</label>
+                       <input type="email" name="email" id="email" class="form-control" placeholder="your email address"/>
+                   </div>
+                   <div class="form-group">
+                       <label for="password">Password</label>
+                       <input type="password" name="first_name" id="password" class="form-control"/>
+                   </div>
+                   <div class="form-group">
+                       <label for="phoneNumber">Phone Number</label>
+                       <input type="number" min="10" name="phone_number" id="phoneNumber" class="form-control"/>
+                   </div>
+                   <div class="form-group">
+                       <label for="DateOfBirth">Date of Birth</label>
+                       <input type="date" name="date_of_birth" id="DateOfBirth" class="form-control"/>
+                   </div>
+                   <div class="form-group">
+                       <label> <input type="radio" name="gender" value="male" checked/> Male </label>
+                       <label> <input type="radio" name="gender" value="female"/> Female </label>
+                   </div>
+                   <div class="form-group">
+                       <label>Address</label>
+                       <textarea type="text" name="address" class="form-control" rows="3"></textarea>
+                   </div>
+                   <div class="form-group">
+                       <label>District Name</label>
+                       <select multiple name="district_name" class="form-control">
+                           <option>---Select District Name---</option>
+                           <option>Nowakhali</option>
+                           <option>Borisal</option>
+                           <option>Dhaka</option>
+                           <option>Rangpur</option>
+                       </select>
+                   </div>
+                   <div class="form-group">
+                       <label>Image</label>
+                       <input type="file" name="image" class="form-control" accept="image/*"/>
+                   </div>
+                   <div class="form-check">
+                       <label class="form-check-label">
+                           <input type="checkbox" name="agree" class="form-check-input"/> I Agree with all terms & conditions
+                       </label>
+                   </div>
+                   <div class="form-group">
+                       <button type="" class="btn btn-success btn-block">Submit</button>
+                   </div>
+                    <!-- form one part code ends -->
+                   
+                   <div class="col-sm-8">
+                       <div class="form-group row">
+                           <label class="clo-sm-2 col-form-label" >Date of Birth</label>
+                           <div class="col-sm-10">
+                               <input type="date" class="form-control" name="date_of_birth" />
+                           </div>
+                       </div>
+                   </div>
+
+               </form>
+
+           </div>
+        </div>
+    </div>
+
+    <script src="js/jQuery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

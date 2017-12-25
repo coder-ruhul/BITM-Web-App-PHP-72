@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>:: Day-08 Bootstrap-4.00 ::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="jumbotron mb-0">
+        <div class="container">
+            <h3>Some content goes here about some thing.</h3>
+            <p>Some content goes here about something. Some content goes here about something.</p>
+        </div>
+    </div>
+    <!-- jumbotron part code ends -->
+   <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+       <div class="container">
+           <a href="" class="navbar-brand">
+               <img src="images/logo.png" alt=""/>
+           </a>
+           <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           
+           <div class="collapse navbar-collapse" id="mainMenu">
+               <ul class="navbar-nav mr-auto">
+                   <li><a href="index.html" class="nav-link">Home</a></li>
+                   <li><a href="" class="nav-link">About</a></li>
+                   <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                       <ul class="dropdown-menu bg-primary">
+                           <li><a href="" class="nav-link">Service One</a></li>
+                           <li><a href="" class="nav-link">Service Two</a></li>
+                           <li><a href="" class="nav-link">Service Three</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="" class="nav-link">Gallery</a></li>
+               </ul>
+               <ul class="navbar-nav">
+                   <li><a href="" data-toggle="modal" data-target="#loginModal" class="nav-link">Login</a></li>
+                   <li><a href="" data-toggle="modal" data-target="#SignUpModal" class="nav-link">Sign Up</a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+    <!-- nav part code ends -->
+
+    <div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0"></li>
+            <li data-target="#mainSlider" data-slide-to="1" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+            <li data-target="#mainSlider" data-slide-to="3"></li>
+        </ol>
+        <!-- carousel conrousel-indicators part code ends -->
+
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="images/1.jpg" alt="" class="w-100" height="400">
+                <div class="carousel-caption">
+                    <h3>Some content goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, repudiandae?</p>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="images/2.JPG" alt="" class="w-100" height="400">
+                <div class="carousel-caption">
+                    <h3>Some content goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, repudiandae?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/3.jpg" alt="" class="w-100" height="400">
+                <div class="carousel-caption">
+                    <h3>Some content goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, repudiandae?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/4.jpg" alt="" class="w-100" height="400">
+                <div class="carousel-caption">
+                    <h3>Some content goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, repudiandae?</p>
+                </div>
+            </div>
+        </div>
+        <!-- carousel conrousel-inner part code ends -->
+
+        <a href="#mainSlider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#mainSlider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <!-- carousel conrousel-inner part code ends -->
+
+    </div>
+    <!-- main carousel slider part code ends -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--<button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-success">Click Me</button>-->
+
+                <div class="modal fade" id="loginModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary">
+                                <h3>Ligin</h3>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &cross;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" name="first_name" id="firstName" class="form-control" placeholder="your first name"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" name="last_name" id="lastName" class="form-control" placeholder="your last name" maxlength="10"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="your email address"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" name="first_name" id="password" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="" class="btn btn-success btn-block">SUBMIT</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login modal/pop-up part code ends -->
+
+        <div class="row">
+            <div class="col-sm-12">
+                <!--<button type="button" data-toggle="modal" data-target="#SignUpModal" class="btn btn-success">Click Me</button>-->
+
+                <div class="modal fade" id="SignUpModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary">
+                                <h3>Sign Up</h3>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &cross;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" name="first_name" id="firstName" class="form-control" placeholder="your first name"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" name="last_name" id="lastName" class="form-control" placeholder="your last name" maxlength="10"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="your email address"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" name="first_name" id="password" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-success btn-block">SUBMIT</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sign Up modal/pop-up part code ends -->
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <hr/>
+                <div class="card">
+                    <div class="card-header">
+                        <h3> This is a hading.</h3>
+                    </div>
+                    <div class="card-body">
+                        <h3>This is a hading.</h3>
+                        <p>This is a paragraph.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>This is a paragraph.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+
+
+
+
+    <script src="js/jQuery-3.2.1.js"></script>
+    <script src="js/popper.js1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
+    <script src="js/custom.js"></script>
+</body>
+</html>
